@@ -1,0 +1,312 @@
+
+
+
+
+.titleBarStyle{
+    /* background-image: -webkit-gradient(linear,left top,right top,color-stop(0,#1ca3ff),color-stop(1,#003bd5)) !important; */
+    background:#2f47c2;
+    font-family: montserrat;
+    color: #fff;
+    font-size: 14pt;
+    display: grid;
+    z-index: 2;
+    grid-template-columns: auto 1fr auto;
+    height: 56px !important;
+    padding: 18px 0 0px 10px !important;
+}
+.profile-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-profile{
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    padding: 5px 4px;
+    background-color: #dbf0ff;
+    color: #003bd5;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-right: 3px;
+}
+ 
+.draggable{
+      -webkit-app-region: drag;
+}
+
+.preventSelect{
+	user-select: none;
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+}
+ 
+
+.cancel:hover, .ok:hover{
+	color:#202327;
+	background:#fff;
+}
+
+ 
+ 
+.windowTitle{
+    padding: 0px 3px 0px 0px;
+    height:auto;
+    display:inline-block;
+    font-family: montserrat;
+    width: 100%;
+}
+ 
+
+.windowControls{
+    float:right;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* width:127px; */
+}
+.m-b-7{
+    margin-bottom: 7px;
+}
+.windowControls button{
+    outline:0;
+    border:0;
+    padding:5px 10px;
+    background:none;
+}
+
+/* .titleBar{
+    display:grid;
+    grid-template-columns: 1fr auto;
+} */
+
+ 
+
+.windowControlsStyle{
+    background: none;
+    border-radius:0 0 5px 5px;
+}
+
+.windowControlsStyle button{
+    color:#fff;
+    font-weight:bold;
+}
+
+.windowControlsStyle button:hover{
+    background:#484a4c;
+}
+
+.preventSelect{
+    user-select: none;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+}
+
+/* ============== */
+.profile-buttons{
+    
+	display: flex;
+	flex-direction: row;
+	 
+	justify-content: center;
+}
+
+.profile-dropdown {
+    position: absolute;
+    background: #eb6510;
+    z-index: 99999;
+    margin-top: 36px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    /* visibility: hidden; */
+    float: right;
+}
+.profile-dropdown a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+	border-bottom: 1px solid #fff;	
+}
+.profile-dropdown a:hover{
+	background: rgb(153 102 204);
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+ 
+
+/* 3-3-2020 */
+/* .titleBar {
+    display: grid;
+    grid-template-columns: 50% auto !important;
+    height: 45px !important;
+    align-items: center !important;
+    grid-template-rows: 40px !important;
+} */
+.titleBar.titleBarStyle {
+    padding: 0 !important;
+}
+.windowTitle.draggable.preventSelect {
+    display: flex !important;
+    align-items: center !important;
+}
+chat-avatar.ng-tns-c1-0 {
+    margin-left: 20px !important;
+}
+
+/* 3-3-2020 */
+.profile-buttons {
+    align-items: center;
+}
+.profile-dropdown {
+    position: absolute;
+    background: #eb6510;
+    z-index: 99999;
+    margin-top: 53px !important;
+     float: none !important;
+    right: 0 !important;
+    width: 200px !important;
+}
+.m-b-7 {
+     margin-bottom: 0px !important;
+}
+.profile-buttons button {
+    padding: 15px !important;
+    transition: all ease-in-out 300ms !important;
+}
+.profile-buttons button:hover{
+    background: #001fb7 !important;
+}
+button#quit:hover {
+    background: #ff3333 !important;
+}
+.windowControls.windowControlsStyle.preventSelect {
+    /*width: 100% !important;*/
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+/* 4-3-2020 */
+.titleBar {
+    /* display: grid; */
+    /* grid-template-columns: auto auto !important; */
+    height: 45px !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    /* grid-template-rows: 40px !important; */
+    display: flex !important;
+    width: 100% !important;
+    position: absolute !important;
+    z-index: 99999999 !important;
+    border-radius:10px 10px 0 0;
+}
+.windowControls.windowControlsStyle.preventSelect {
+    /*width: 100% !important;*/
+    display: -webkit-box !important;
+    display: flex !important;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    /* min-width: 30% !important; */
+}
+
+.chat-profile {
+    border-radius: 50%;
+    height: 30px;
+    padding: 14px;
+    /* width: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbf0ff;
+    color: #003bd5;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 0!important;
+    margin-right: 5px!important;
+    cursor: pointer;
+}
+.profile-dropdown {
+    position: absolute;
+    background: #eb6510;
+    z-index: 99999;
+    margin-top: 45px !important;
+    float: none !important;
+    right: 0 !important;
+    width: 165px !important;
+}
+.profile-buttons button {
+    cursor: pointer;
+}
+
+/* 5-3-2020 */
+.chat-profile {
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    padding: 5px 4px;
+    background-color: #dbf0ff;
+    color: #003bd5;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 0px !important;
+    margin-right: 5px !important;
+    cursor: pointer;
+}
+chat-avatar.ng-tns-c1-0 {
+    margin-left: 7px !important;
+    margin-top: -4px !important;
+}
+
+/* 10-3-2020 */	
+.chat-profile {	
+    border-radius: 50%;	
+        height: 30px;	
+        width: 30px;	
+        padding: 5px 4px;	
+        background-color: #dbf0ff;	
+        color: #003bd5;	
+        font-weight: 700;	
+        font-size: 14px;	
+        margin-top: 0!important;	
+        margin-right: 5px!important;	
+        cursor: pointer;	
+        text-align: center;	
+    }
+
+
+
+    .theme_selector_container_box {
+        height: 100%;
+        /* display: flex; */
+        align-items: center;
+        margin-right: 30px;
+        display: none!important;
+    }
+
+
+    /* themes */
+
+    /*blue_pink Theme */
+    .blue_pink.titleBar {
+        background: #9966cc;
+        background-image: linear-gradient(to right, #9966cc , #4b1f73);
+	}
+    /*blue_pink Theme */
+
+    /*red_blue Theme */
+    .red_blue.titleBar {
+        background: #9966cc;
+        background-image: linear-gradient(to right, #9966cc , #4b1f73);
+    }
+    /*red_blue Theme */
+
+    /*blue_blue Theme */
+    .blue_blue.titleBar {
+    background: #9966cc;
+    background-image: linear-gradient(to right, #9966cc , #4b1f73);
+    }
+   
+    /*blue_blue Theme */

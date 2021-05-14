@@ -1,0 +1,31 @@
+ 
+<div class="chat-box-main">
+  <form class="chatouter" [formGroup]="registerForm" (keyup.enter)="onSubmit()">
+    <div class="mobicon">
+      <img src="../../../assets/images/zeelogo.png" alt="logo">
+    </div>
+    <div class="login">
+      <h2 class="login-head">LOGIN</h2>
+      <div class="login-form">
+        <div class="user-name">
+          <input type="text" placeholder="User Name" formControlName="userName" class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && f.userName.errors }"><i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+        <div class="user-password">
+          <input type="password" placeholder="Passsword" formControlName="password" class="form-control"
+            [ngClass]="{'is-invalid': submitted && f.password.errors}"><i class="fa fa-lock"></i>
+        </div>
+      </div>
+      <div class="login-button">
+        <!-- <div class="emp-loader"  *ngIf="isLoginLoading">Loading...</div> -->
+        <div class="loaderouter" *ngIf="isLoginLoading">
+          <div class="emp-loader">Loading...</div>
+        </div>
+        <span style="cursor: pointer;" (click)="onSubmit()">Login</span>
+      </div>
+      <div _ngcontent-ruf-c3="" class="eform-validation">{{credentialError}}</div>
+    </div>
+  </form>
+  
+  <!-- <button (click)="onOpenModal()">Open Modal</button> -->
+</div>

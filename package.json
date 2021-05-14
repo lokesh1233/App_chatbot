@@ -1,0 +1,163 @@
+{
+  "name": "S3PO",
+  "version": "1.0.1",
+  "license": "MIT",
+  "type": "module",
+  "author": {
+    "name": "Speridian",
+    "email": "hr@speridian.com"
+  },
+  "description": "S3PO",
+  "main": "main.js",
+  "build": {
+    "appId": "com.speridian.electron-chat-bot",
+    "copyright": " Speridian Technologies @ 2020",
+    "productName": "S3PO",
+    "publish": [
+      {
+        "provider": "github",
+        "repo": "http://git.speridian.com/AI-ML/rasa_hr_chatbot_ui_app",
+        "owner": "noreply-s3po@speridian.com",
+        "protocol": "https",
+        "token": "332f51e5266fe0f61731e5fd179a7a960f048a13"
+      }
+    ],
+    "files": [
+      "**/*",
+      "dist/**/*"
+    ],
+    "directories": {
+      "output": "release",
+      "buildResources": "dist"
+    },
+    "asar": true,
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "category": "public.app-category.utilities"
+    },
+    "dmg": {
+      "icon": "",
+      "title": "S3PO",
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "name": "S3PO",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "dist/favicon.ico"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "language": "2052",
+      "multiLanguageInstaller": true,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "favicon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": true,
+      "deleteAppDataOnUninstall": true,
+      "license": "README.md"
+    }
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "build:elements": "ng build elements --prod",
+    "postbuild:elements": "node ./build-elements.js",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "postinstall": "install-app-deps",
+    "electron": " electron .",
+    "dist": "electron-builder",
+    "dist-all": "electron-builder -mw",
+    "electron-build": "ng build && electron .",
+    "package-win": "electron-packager . rasa_HRBot_UI --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=Speridian --version-string.FileDescription=Speridian --version-string.ProductName=Speridian HR BOT"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~8.2.14",
+    "@angular/cdk": "~8.2.3",
+    "@angular/common": "~8.2.14",
+    "@angular/compiler": "~8.2.14",
+    "@angular/core": "~8.2.14",
+    "@angular/elements": "^9.0.2",
+    "@angular/forms": "~8.2.14",
+    "@angular/material": "^8.2.3",
+    "@angular/platform-browser": "~8.2.14",
+    "@angular/platform-browser-dynamic": "~8.2.14",
+    "@angular/router": "~8.2.14",
+    "@types/jquery": "^3.3.31",
+    "@webcomponents/custom-elements": "^1.1.0",
+    "bootstrap": "^4.4.1",
+    "concat": "^1.0.3",
+    "core-js": "^2.5.4",
+    "electron-log": "^4.0.7",
+    "electron-reload": "^1.5.0",
+    "electron-store": "^5.1.1",
+    "electron-updater": "^4.2.4",
+    "fs-extra": "^5.0.0",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "ng-multiselect-dropdown": "^0.2.10",
+    "ngx-daterangepicker-material": "^2.0.2",
+    "ngx-perfect-scrollbar": "^9.0.0",
+    "ngx-toastr": "^10.0.4",
+    "rxjs": "~6.4.0",
+    "tslib": "^1.10.0",
+    "update-electron-app": "^1.5.0",
+    "url": "^0.11.0",
+    "zone.js": "~0.9.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.803.25",
+    "@angular/cli": "~8.3.25",
+    "@angular/compiler-cli": "~8.2.14",
+    "@angular/language-service": "~8.2.14",
+    "@types/jasmine": "~3.3.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "codelyzer": "^5.0.0",
+    "electron": "^8.0.2",
+    "electron-builder": "^22.3.2",
+    "jasmine-core": "~3.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.1.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.0",
+    "protractor": "~5.4.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.15.0",
+    "typescript": "~3.5.3"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}

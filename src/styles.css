@@ -1,0 +1,626 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'gothamblack';
+  src: url('../src/assets/fonts/gotham-black-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gotham-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothambold';
+  src: url('../src/assets/fonts/gotham-bold-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gotham-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothambold';
+  src: url('../src/assets/fonts/gothambold-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gothambold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothambold_italic';
+  src: url('../src/assets/fonts/gothambolditalic-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gothambolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothambook';
+  src: url('../src/assets/fonts/gothambook-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gothambook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothambookitalic';
+  src: url('../src/assets/fonts/gotham-bookitalic-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gotham-bookitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothambook_italic';
+  src: url('../src/assets/fonts/gothambookitalic-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gothambookitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothamlight';
+  src: url('../src/assets/fonts/gotham-light-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gotham-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothamlight';
+  src: url('../src/assets/fonts/gothamlight-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gothamlight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothamlight_italic';
+  src: url('../src/assets/fonts/gothamlightitalic-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gothamlightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothammedium';
+  src: url('../src/assets/fonts/gothammedium-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gothammedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothammedium_1';
+  src: url('../src/assets/fonts/gothammedium_1-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gothammedium_1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'gothammedium_1';
+  src: url('../src/assets/fonts/gothammedium_1-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gothammedium_1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothammediumitalic';
+  src: url('../src/assets/fonts/gothammediumitalic-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gothammediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothamthin';
+  src: url('../src/assets/fonts/gotham-thin-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gotham-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothamthinitalic';
+  src: url('../src/assets/fonts/gotham-thinitalic-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gotham-thinitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothamultraitalic';
+  src: url('../src/assets/fonts/gotham-ultraitalic-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gotham-ultraitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothamxlight';
+  src: url('../src/assets/fonts/gotham-xlight-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gotham-xlight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gothamxlightitalic';
+  src: url('../src/assets/fonts/gotham-xlightitalic-webfont.woff2') format('woff2'),
+       url('../src/assets/fonts/gotham-xlightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import '~perfect-scrollbar/css/perfect-scrollbar.css';
+@import "../node_modules/ngx-toastr/toastr.css";
+html, body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/* themechage */
+html,body,div,p,h1,h2,h3,h4,h5,h6{
+  font-family: 'gothambold';
+}
+textarea,input,td,button,a{
+  font-family: 'gothambook'!important;
+}
+.chat-message-date{
+  font-family: 'gothambook'!important;
+}
+.chat-message-text{
+  color: #fff!important;
+  margin-top: 10px;
+}
+.normal-msg{
+  font-family: 'gothambook'!important;
+}
+.md-drppicker .btn{
+  background: #9765ca!important;
+}
+.md-drppicker .btn:focus, .md-drppicker .btn:hover{
+  background: #4b1f73!important;
+}
+.md-drppicker td.active, .md-drppicker td.active:hover{
+  background-color: #9765ca!important;
+}
+.covid-h{
+  color: #9765ca!important;
+  font-family:'gothambook'!important;
+}
+.e-header{
+  background: #9765ca!important;
+  font-family:'gothambold'!important;
+}
+.blue_pink .letter{
+  background-color: #9765ca!important;
+}
+.blue_pink .bpw-button{
+  font-family: 'gothambook'!important;
+    border: 1px solid #ee754b!important;
+    outline: none;
+    color: #ee754b!important;
+}
+.blue_pink .bpw-button:hover{
+  background:#ee754b!important;
+  color: #fff!important;
+}
+
+.red_blue .letter{
+  background-color: #9765ca!important;
+}
+.red_blue .bpw-button{
+  font-family: 'gothambook'!important;
+    border: 1px solid #ee754b!important;
+    outline: none;
+    color: #ee754b!important;
+}
+.red_blue .bpw-button:hover{
+  background:#ee754b!important;
+  color: #fff!important;
+}
+
+.blue_blue .bpw-button{
+  font-family: 'gothambook'!important;
+    border: 1px solid rgb(46 51 63 / 50%)!important;
+    outline: none;
+    color: #2e333f!important;
+}
+.blue_blue .bpw-button:hover{
+  background: #9966cc!important;
+    color: #ffffff!important;
+    border: 1px solid #9966cc!important;
+    box-shadow: 0px 1px 12px 2px rgb(136 87 185 / 25%)!important;
+}
+.blue_pink .view{
+color: #9966cc!important;
+}
+.holiday-left.date{
+  color: #2e333f!important;
+  font-family: 'gothambook'!important;
+}
+.holiday-right.reason{
+  /* color: #2e333f!important; */
+  font-family: 'gothambook'!important;
+}
+.table-holder table tr:nth-child(even){
+  background: #ee754b!important;
+  color: #fff!important;
+}
+.table-holder table tr:nth-child(even) .holiday-left.date{
+  color: #fff!important;
+}
+
+.chat-message-sent .chat-message-text {
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 3px;
+	white-space:pre-wrap;
+	/* color: #ffffff; */
+  color: #2e333f!important;
+  background: rgb(255 184 40 / 40%)!important;
+}
+
+.chat-message-received .chat-message-text{
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 3px;
+	white-space:pre-wrap;
+	color: #ffffff;
+	background-image: linear-gradient(to right, #9966cc , #4b1f73)!important;
+}
+.chat-box-main::-webkit-scrollbar-thumb {
+	background: #9966cc!important; 
+  }
+  
+  /* Handle on hover */
+ .chat-box-main::-webkit-scrollbar-thumb:hover {
+	background: #4b1f73!important; 
+  }
+  ::-webkit-scrollbar-thumb:horizontal{
+    background: #9966cc!important; 
+  }
+  ::-webkit-scrollbar-thumb:horizontal:hover{
+    background: #4b1f73!important; 
+  }
+/* themechage */
+
+/* new style */
+.multiselect-item-checkbox input[type=checkbox] + div:before{
+  border: 2px solid #9765ca!important;
+}
+.multiselect-item-checkbox input[type=checkbox]:checked + div:before{
+  background: #9765ca!important;
+}
+
+/* new style */
+
+.chat-box-main::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+ 
+.chat-box-main::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.chat-box-main::-webkit-scrollbar-thumb {
+  background-color: #9765ca!important;
+}
+
+
+.multiselect-dropdown .dropdown-btn {
+  border: 1px solid #9765ca !important;
+  padding: 13px 12px !important;
+  line-height: 7px !important;
+  border-radius: 4px !important;
+  outline:none;
+  background: rgb(151 101 202 / 12%) !important;
+  font-family: 'gothammedium'!important;
+  /* display: flex !important;
+  flex-flow: row wrap !important; */
+}
+
+.multiselect-dropdown .dropdown-btn .dropdown-down {
+  border-top: 5px solid #9765ca !important;
+  border-left: 5px solid transparent !important;
+  border-right: 5px solid transparent !important;
+  font-family: 'gothammedium'!important;
+}
+
+.multiselect-dropdown .dropdown-btn .dropdown-up{
+  border-bottom: 5px solid #9765ca  !important;
+  border-left: 5px solid transparent !important;
+  border-right: 5px solid transparent !important;
+  font-family: 'gothammedium'!important;
+}
+
+/* new style */
+.multiselect-item-checkbox input[type=checkbox] + div:before{
+  border: 2px solid #9765ca;
+}
+.multiselect-item-checkbox input[type=checkbox]:checked + div:before{
+  background: #9765ca;
+}
+
+/* new style */
+
+.dropdown-list li{
+  padding: 11px 10px !important;
+  border-bottom: 1px solid #f3f3f3 !important;
+}
+
+
+.dropdown-list li:last-child{
+  border-bottom:none;
+}
+
+
+
+.dropdown-list{
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 8px !important;
+  padding: 10px 0px 18px !important;
+  box-shadow: 0 1px 14px 0px rgb(214 214 214 / 59%) !important;
+}
+
+
+.multiselect-dropdown .dropdown-btn .selected-item {
+  background: #9966cc !important;
+  padding: 10px 11px !important;
+  color: #f3f5ff !important;
+  font-size: 13px !important;
+  border-radius: 25px !important;
+  margin-right: 10px !important;
+  margin-bottom: 8px !important;
+  font-family: 'gothammedium'!important;
+
+}
+
+.toast-top-right {
+  top: 50px;
+  right: 12px;
+}
+
+/* new chat avatar */
+.chat_avatar_image {
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ee754b;
+}
+
+img.avatar_img {
+  max-height: 18px;
+  object-fit: cover;
+}
+
+
+
+.tgl_btn {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%; 
+  /* border: 1px solid #fff; */
+   /* transition: all ease-in-out 300ms;
+  transform: scale(.8); */
+}
+.tgl_btn > button 
+{
+  height: 100% !important;
+  width: 100% !important;
+  outline: none;
+}
+.tgl_btn:hover 
+{
+  transform: scale(1);
+  border: 1px solid #fff;
+}
+.tgl_active_theme 
+{
+  transform: scale(1);
+  border: 1px solid #fff;
+} 
+ .tgl_btn > button > div.mat-button-toggle-label-content {
+  display: none !important;
+}
+.avatar
+{
+	margin-top: 0 !important;
+}
+.blue_blue_button 
+{
+  background: #003bd5;
+	background-image: -webkit-gradient(linear,left top,right top,color-stop(0,#1ca3ff),color-stop(1,#003bd5));
+  background-image: gradient(linear,left top,right top,color-stop(0,#1ca3ff),color-stop(1,#003bd5));
+}
+.blue_pink_button 
+{
+  background: #018AAF;
+  background-image: -webkit-gradient(linear,left top,right top,color-stop(0,#c82b65),color-stop(1,#018AAF));
+  background-image: gradient(linear,left top,right top,color-stop(0,#c82b65),color-stop(1,#018AAF));
+ 
+}
+.red_blue_button 
+{
+  background: #2f3293;
+  background-image: -webkit-gradient(linear,left top,right top,color-stop(0,#eb1c24),color-stop(1,#2f3293));
+  background-image: gradient(linear,left top,right top,color-stop(0,#eb1c24),color-stop(1,#2f3293));
+}
+
+.theme_switcher_group {
+  display: flex;
+  justify-content: flex-end;
+gap: 20px;
+
+}
+
+
+
+ /*blue_pink Theme */
+ .blue_pink .avatar.user-text {
+  background: #9966cc;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+ .blue_pink .avatar.user-text:empty {
+  display: none!important;
+}
+  /*blue_pink Theme */
+
+  /*red_blue Theme */
+  .red_blue .avatar.user-text {
+    background: #9966cc;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .red_blue .avatar.user-text:empty {
+    display: none!important;
+  }
+  /*red_blue Theme */
+
+  /*blue_blue Theme */
+  .blue_blue .avatar.user-text {
+    background: #9966cc;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .blue_blue .avatar.user-text:empty {
+      display: none!important;
+  }
+  
+  /*blue_blue Theme */
+  
+  .blue_blue .link-wrap > span > a,
+  .red_blue .link-wrap > span > a,
+  .blue_pink .link-wrap > span > a
+  {
+    color: #fff !important;
+  }
+
+
+  .chat-box-main.background {
+    background-image: url('assets/images/background.jpg')!important;
+    background-position: bottom!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+}
+.chat-box-main{
+    flex: 1;
+    width: 100%;
+    background: #f9f9f9;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    flex-direction: column-reverse;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 0 8px 0 12px;
+    margin: 0;
+}
+chat-avatar.zeechaticon{
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0 0 0 10px;
+}
+chat-avatar.zeechaticon .avatar.headerimg{
+  height: 100%;
+  width: 100%;
+  float: left;
+  background-color: transparent;
+  background-size: cover;
+  padding: 0;
+}
